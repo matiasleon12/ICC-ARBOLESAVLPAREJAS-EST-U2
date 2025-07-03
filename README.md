@@ -1,18 +1,86 @@
-## Getting Started
+# 🌳 Práctica de Sets en Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 📌 Información General
 
-## Folder Structure
+- **Título:** Práctica de Implementación de Sets en Java  
+- **Asignatura:** Estructura de Datos  
+- **Carrera:** Computación  
+- **Estudiante:** Matias Leon  
+- **Fecha:** [1/7/2025]  
+- **Profesor:** Ing. Pablo Torres  
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🛠️ Descripción
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Este proyecto demuestra el uso de distintas implementaciones de la interfaz `Set` en Java, incluyendo:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- `HashSet`
+- `LinkedHashSet`
+- `TreeSet`
+- `TreeSet` con `Comparator` personalizado (orden por longitud ascendente y descendente)
 
-## Dependency Management
+Se analizan las diferencias en el comportamiento de cada estructura, especialmente respecto al **ordenamiento**, la **eliminación de duplicados** y la **preservación del orden de inserción**.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## ✅ Funcionalidades
+
+- Inserción de elementos con posibles duplicados para observar comportamiento de cada tipo de `Set`.
+- Comparación de:
+  - Orden natural (`TreeSet`)
+  - Orden por longitud de cadenas (`TreeSet` con `Comparator`)
+  - Orden descendente por longitud (`Comparator` invertido)
+- Visualización del contenido de cada `Set` desde el `main` (`App.java`)
+
+---
+
+## 🚀 Ejecución
+
+1. Compilar el proyecto:
+   ```bash
+   javac App.java
+
+## Imagen
+# 🌳 Práctica de Sets en Java
+
+## 📌 Información General
+
+- **Título:** Práctica de Implementación de Sets en Java  
+- **Asignatura:** Estructura de Datos  
+- **Carrera:** Computación  
+- **Estudiante:** Matias Leon  
+- **Fecha:** [Fecha Actual]  
+- **Profesor:** Ing. Pablo Torres  
+
+---
+
+## 🛠️ Descripción
+
+Este proyecto demuestra el uso de distintas implementaciones de la interfaz `Set` en Java, incluyendo:
+
+- `HashSet`
+- `LinkedHashSet`
+- `TreeSet`
+- `TreeSet` con `Comparator` personalizado (orden por longitud ascendente y descendente)
+
+Se analizan las diferencias en el comportamiento de cada estructura, especialmente respecto al **ordenamiento**, la **eliminación de duplicados** y la **preservación del orden de inserción**.
+
+---
+
+## ✅ Funcionalidades
+
+- Inserción de elementos con posibles duplicados para observar comportamiento de cada tipo de `Set`.
+- Comparación de:
+  - Orden natural (`TreeSet`)
+  - Orden por longitud de cadenas (`TreeSet` con `Comparator`)
+  - Orden descendente por longitud (`Comparator` invertido)
+- Visualización del contenido de cada `Set` desde el `main` (`App.java`)
+
+---
+
+## 🚀 Ejecución
+![alt text](<Captura de pantalla 2025-07-02 225030.png>)
+
+## Imagen 2:
+![alt text](<Captura de pantalla 2025-07-02 225050.png>)

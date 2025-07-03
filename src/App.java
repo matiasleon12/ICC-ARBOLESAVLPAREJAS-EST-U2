@@ -6,7 +6,7 @@ import controller.Sets;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("\nNombres: Cristian Moscoso");
+        System.out.println("\nNombres: Matias Leon");
         System.out.println(" ");
         Sets setsito = new Sets();
         runHashSet(setsito);
