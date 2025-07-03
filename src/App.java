@@ -2,6 +2,7 @@ import java.nio.channels.Pipe.SourceChannel;
 import java.util.Set;
 
 import controller.ContactoControl;
+import controller.Ejercicios;
 import controller.Sets;
 
 public class App {
@@ -16,6 +17,9 @@ public class App {
         runComparadorDes(setsito);
 
         ContactoControl contactoControl = new ContactoControl();
+
+        Ejercicios ejercicios = new Ejercicios();
+        System.out.println(ejercicios);
 
         
     }
@@ -53,4 +57,6 @@ public class App {
             System.out.println(set);
         } 
     }
+
+    
 }
